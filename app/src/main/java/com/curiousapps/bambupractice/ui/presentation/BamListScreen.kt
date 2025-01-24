@@ -90,7 +90,7 @@ fun BamRow(
         )
         Divider(
             modifier = Modifier.height(2.dp)
-                .padding(start = 40.dp),
+                .padding(start = 40.dp, end = 40.dp),
             color = Color.LightGray
         )
     }
